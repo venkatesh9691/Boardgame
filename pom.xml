@@ -118,12 +118,12 @@
 
 	<distributionManagement>
         <repository>
-            <id>maven-releases</id>
-            <url>http://13.232.105.162:8081/repository/maven-releases/</url>
+            <id>nexusRepo</id>
+            <url>http://16.16.254.229:8081/repository/venkatesh/</url>
         </repository>
         <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://13.232.105.162:8081/repository/maven-snapshots/</url>
+            <id>nexusRepo</id>
+            <url>http://16.16.254.229:8081/repository/venkatesh/</url>
         </snapshotRepository>
     </distributionManagement>
 
