@@ -17,6 +17,9 @@
 	<properties>
 		<java.version>11</java.version>
 		<jacoco.version>0.8.7</jacoco.version>
+		<sonar.host.url>http://13.50.236.148:9000/</sonar.host.url>
+		<sonar.host.login>admin</sonar.host.login>
+		<sonar.host.password>admin</sonar.host.password>
    		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
     		<sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
